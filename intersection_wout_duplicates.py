@@ -19,3 +19,11 @@ class Answer:
 arr1 = [1, 2, 3]
 arr2 = [1, 1, 5]
 print(Answer().PureIntersection(arr1, arr2))
+
+'''
+Answer from IT resume:
+class Answer:
+    def PureIntersection(self, arr1, arr2):
+        return list(set(arr1).intersection(set(arr2))) 
+intersection - method of list in python
+'''
