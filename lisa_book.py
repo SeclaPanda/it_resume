@@ -9,9 +9,11 @@ class Answer:
             if a%k != 0: page += 1        
         return count
 arr = [4, 2]
-print(Answer().CountSpecialProblems(2, 3, arr))
+print(Answer().CountSpecialProblems(2, 3, arr)) 
 
 '''
+My solution time: 0.043338 sec
+it_resume: 0.056465 sec
 Answer from IT_resume
 for a in arr:
     i = 1
